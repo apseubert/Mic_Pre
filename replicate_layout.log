@@ -1,0 +1,55 @@
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, Apr  9 2023, 05:22:13) [MSC v.1934 64 bit (AMD64)]'
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.2
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001E40AE661F0>
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with J2 as a reference
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'J2'
+Located on: ['Mic Lane 1']
+With filenames: ['MicLane1.kicad_sch']
+With sheet_id:['Mic Lane 1']
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('J5', ['Mic Lane 2']), ('J2', ['Mic Lane 1'])]
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'Mic Lane 1', file:'MicLane1.kicad_sch'
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['Mic Lane 2']]
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['Mic Lane 1']
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1883, 80)
+05-05 18:03:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1444, 80)
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'Mic Lane 1', file:'MicLane1.kicad_sch'
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['Mic Lane 2']]
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['Mic Lane 2']]
+on level: ['Mic Lane 1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+05-05 18:03:35 root 332:updating GUI message: 'Preparing for replication'
+05-05 18:03:35 root 337:updating GUI with: 0
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+05-05 18:03:35 root 332:updating GUI message: 'Replicating footprints'
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['Mic Lane 2']
+05-05 18:03:35 root 337:updating GUI with: 42
+05-05 18:03:35 root 332:updating GUI message: 'Replicating tracks'
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['Mic Lane 2']
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Mic Lane 2'] :[('Net-(J6-Pin_2)', 'Net-(J14-Pin_2)'), ('Net-(U2-1)', 'Net-(U1-1)'), ('Net-(D11-K)', 'Net-(D1-A)'), ('+12V', '+12V'), ('Net-(U4-Vin-)', 'Net-(U3-Vin-)'), ('Net-(U4-Vin+)', 'Net-(U3-Vin+)'), ('/Mic Lane 1/Mic1_Vout+', '/Mic Lane 2/Mic1_Vout+'), ('-12V', '-12V'), ('Net-(C19-Pad2)', 'Net-(C17-Pad2)'), ('Net-(C14-Pad2)', 'Net-(C12-Pad2)'), ('+48V', '+48V'), ('Net-(C13-Pad1)', 'Net-(C11-Pad1)'), ('Net-(R30-Pad2)', 'Net-(R28-Pad2)'), ('Net-(D12-A)', 'Net-(D10-A)'), ('Earth', 'Earth'), ('Net-(C10-Pad1)', 'Net-(C12-Pad1)'), ('Net-(U4-Vout-)', 'Net-(U3-Vout-)'), ('/Mic Lane 1/Mic1_Vout-', '/Mic Lane 2/Mic1_Vout-'), ('unconnected-(C36-Pad2)', 'unconnected-(C35-Pad2)'), ('Net-(C10-Pad2)', 'Net-(C1-Pad2)'), ('Net-(D12-K)', 'Net-(D10-K)'), ('Net-(D11-A)', 'Net-(D9-A)'), ('Net-(J8-Pin_1)', 'Net-(J15-Pin_1)'), ('', ''), ('Net-(J4-Pin_3)', 'Net-(J7-Pin_3)'), ('Net-(J6-Pin_4)', 'Net-(J14-Pin_4)'), ('Net-(U4-Vout+)', 'Net-(U3-Vout+)'), ('/Mic Lane 1/20dB_Pad1', '/Mic Lane 2/20dB_Pad1'), ('Net-(C20-Pad2)', 'Net-(C18-Pad2)'), ('Net-(J6-Pin_1)', 'Net-(J14-Pin_1)'), ('Net-(C13-Pad2)', 'Net-(C11-Pad2)')]
+05-05 18:03:35 root 337:updating GUI with: 0
+05-05 18:03:35 root 332:updating GUI message: 'Replicating zones'
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['Mic Lane 2']
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Mic Lane 2'] :[('Net-(J6-Pin_2)', 'Net-(J14-Pin_2)'), ('Net-(U2-1)', 'Net-(U1-1)'), ('Net-(D11-K)', 'Net-(D1-A)'), ('+12V', '+12V'), ('Net-(U4-Vin-)', 'Net-(U3-Vin-)'), ('Net-(U4-Vin+)', 'Net-(U3-Vin+)'), ('/Mic Lane 1/Mic1_Vout+', '/Mic Lane 2/Mic1_Vout+'), ('-12V', '-12V'), ('Net-(C19-Pad2)', 'Net-(C17-Pad2)'), ('Net-(C14-Pad2)', 'Net-(C12-Pad2)'), ('+48V', '+48V'), ('Net-(C13-Pad1)', 'Net-(C11-Pad1)'), ('Net-(R30-Pad2)', 'Net-(R28-Pad2)'), ('Net-(D12-A)', 'Net-(D10-A)'), ('Earth', 'Earth'), ('Net-(C10-Pad1)', 'Net-(C12-Pad1)'), ('Net-(U4-Vout-)', 'Net-(U3-Vout-)'), ('/Mic Lane 1/Mic1_Vout-', '/Mic Lane 2/Mic1_Vout-'), ('unconnected-(C36-Pad2)', 'unconnected-(C35-Pad2)'), ('Net-(C10-Pad2)', 'Net-(C1-Pad2)'), ('Net-(D12-K)', 'Net-(D10-K)'), ('Net-(D11-A)', 'Net-(D9-A)'), ('Net-(J8-Pin_1)', 'Net-(J15-Pin_1)'), ('', ''), ('Net-(J4-Pin_3)', 'Net-(J7-Pin_3)'), ('Net-(J6-Pin_4)', 'Net-(J14-Pin_4)'), ('Net-(U4-Vout+)', 'Net-(U3-Vout+)'), ('/Mic Lane 1/20dB_Pad1', '/Mic Lane 2/20dB_Pad1'), ('Net-(C20-Pad2)', 'Net-(C18-Pad2)'), ('Net-(J6-Pin_1)', 'Net-(J14-Pin_1)'), ('Net-(C13-Pad2)', 'Net-(C11-Pad2)')]
+05-05 18:03:35 root 332:updating GUI message: 'Replicating text'
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['Mic Lane 2']
+05-05 18:03:35 root 332:updating GUI message: 'Replicating drawings'
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['Mic Lane 2']
+05-05 18:03:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
